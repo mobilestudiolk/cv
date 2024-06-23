@@ -330,6 +330,13 @@ a:focus {
     margin-right: 10px;
 }
 
+
+@media (max-width: 767.98px) {
+    .brand-text {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+}
+
 @media (max-width: 991.98px) {
     .hero {
         padding-top: 60px;
@@ -847,6 +854,7 @@ a:focus {
 
 .portfolio .portfolio-item {
     position: relative;
+    margin-bottom: 30px; /* Ensure some space between items */
 }
 
 .portfolio .portfolio-wrap {
@@ -862,7 +870,7 @@ a:focus {
 .portfolio .portfolio-img img {
     position: relative;
     width: 100%; 
-    height: 100%; 
+    height: auto; /* Adjust height for responsiveness */
     object-fit: cover;
     transform: scale(1.1);
     transition: .5s;
@@ -909,6 +917,30 @@ a:focus {
     box-shadow: inset 0 0 0 0 #3f37c9;
     border-color: #3f37c9;
 }
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .portfolio .portfolio-text {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    
+    .portfolio .portfolio-text h3 {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    
+    .portfolio .portfolio-text a.btn {
+        width: 100%;
+        height: 40px;
+        font-size: 30px;
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+}
+
 
 
 /*******************************/
