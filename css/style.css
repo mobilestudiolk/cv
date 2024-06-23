@@ -953,7 +953,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #82c937;
+    background: #3f37c9;
 }
 
 .banner .container {
@@ -966,7 +966,7 @@ a:focus {
 }
 
 .banner .section-header p {
-    color: #414141;
+    color: #4895ef;
     background: transparent;
 }
 
@@ -979,7 +979,7 @@ a:focus {
 }
 
 .banner .section-header h2 span {
-    color: #414141;
+    color: #4895ef;
     font-size: 50px;
 }
 
