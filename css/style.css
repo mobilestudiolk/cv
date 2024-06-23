@@ -871,7 +871,7 @@ a:focus {
 .portfolio .portfolio-img img {
     position: relative;
     width: 100%; 
-    height: auto; /* Adjust height for responsiveness */
+    height: 300px; /* Adjust height for responsiveness */
     object-fit: cover;
     transform: scale(1.1);
     transition: .5s;
