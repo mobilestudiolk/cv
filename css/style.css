@@ -1063,7 +1063,19 @@ a:focus {
 }
 
 .plan-price {
-    font-size: 36px;
+    font-size: 1.5em;
+    color: #ff6b6b;
+    margin: 10px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    font-size: 1.5em;
     color: #ff6b6b;
     margin: 10px 0;
 }
