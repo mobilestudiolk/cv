@@ -333,7 +333,7 @@ a:focus {
 
 @media (max-width: 767.98px) {
     .brand-text {
-        font-size: 2rem; /* Smaller font size for mobile */
+        font-size: 1.5rem; /* Smaller font size for mobile */
     }
 }
 
