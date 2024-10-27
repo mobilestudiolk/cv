@@ -105,11 +105,6 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
-    // Simple visitor counter
-    let count = localStorage.getItem('visitorCount2') ? parseInt(localStorage.getItem('visitorCount2')) : 40000;
-    count++;
-    localStorage.setItem('visitorCount2', count);
-    document.getElementById('visitor-count').innerText = count;
     
 })(jQuery);
 

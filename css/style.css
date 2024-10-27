@@ -1666,15 +1666,6 @@ a:focus {
     color: #414141;
 }
 
-#visitor-count {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 1.2em; /* Slightly larger font for the count */
-}
-
-.v-count{
-    color: #ffffff;
-}
 
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
