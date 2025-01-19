@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apptora Technologies</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="img/1.jpg" rel="icon">
+</head>
+<body>
+  <div class="calculator">
+    <!-- Logo -->
+    <img src="img/1.jpg" alt="Apptora Logo" class="logo">
+
+    <h1>Apptora Mobile App <br> Price Calculator</h1>
+
+
+    <label for="screenCount">Select Screen Count:</label>
+    <select id="screenCount">
+      <!-- Dropdown for 2 to 20 screens -->
+      <script>
+        for (let i = 2; i <= 20; i++) {
+          document.write(`<option value="${i}">${i} Screens</option>`);
+        }
+      </script>
+    </select>
+
+    <!-- Additional Options -->
+    <fieldset class="additional-options">
+      <legend>Additional Options:</legend>
+      <label>
+        <input type="checkbox" id="paymentGateway" value="25000">
+        Payment Gateway Integration (LKR 25,000)
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" id="playStore" value="7500">
+        Play Store Submission (LKR 7,500)
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" id="appStore" value="7500">
+        App Store Submission (LKR 7,500)
+      </label>
+    </fieldset>
+
+    <button onclick="calculatePrice()">Calculate Price</button>
+
+    <!-- Results -->
+    <div class="results">
+      <p id="basePrice">Base Price: LKR <span>0</span></p>
+      <p id="discount">Discount: LKR <span>0</span></p>
+      <p id="optionalCost">Optional Features: LKR <span>0</span></p>
+      <p id="totalPrice">Total Price: LKR <span>0</span></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Powered by <b>Apptora Technologies</b></p>
+    <p>Contact: +94 71 362 0406</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
